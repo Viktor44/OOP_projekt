@@ -1,5 +1,5 @@
 package Pac1;
 
 public interface Tovar {
-		public int urok(int x);
+		public float urok(float x,float u);
 }

@@ -3,9 +3,10 @@ package Pac2;
 import Pac1.Tovar;
 
 public class Uver implements Tovar {
-	int u;
-	public int urok(int x) {
-		int y = 5;
+	private float u;
+	public float urok(float x , float u) {
+		float y = x*u+x;
 		return y;
 	}
+	
 }
